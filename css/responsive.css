@@ -1,0 +1,140 @@
+@media (max-width: 992px) {
+    #home_secton h1 {
+        font-size: 55px;
+    }
+
+    #home_secton p {
+        font-size: 25px;
+    }
+
+    #animal_lover h2 {
+        font-size: 40px;
+    }
+
+    #animal_lover p {
+        font-size: 20px;
+    }
+
+    #animal_lover .Coler_box {
+        display: none;
+    }
+
+    #animal_lover .icon_box {
+        top: 0;
+        left: 0%;
+        border-radius: 3%;
+        width: 100%;
+    }
+
+    #animal_lover .images_box img {
+        border-radius: 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    #home_secton h1 {
+        font-size: 45px;
+    }
+
+    #home_secton p {
+        font-size: 30px;
+    }
+
+    #animal_lover .dogi_box {
+        margin: auto;
+    }
+
+    #animal_lover h2 {
+        font-size: 35px;
+    }
+
+    #animal_lover .Coler_box {
+        display: none;
+    }
+
+    #animal_lover .images_box img {
+        border-radius: 3%;
+    }
+
+    #animal_lover .icon_box {
+        top: 0;
+        left: 0%;
+        border-radius: 3%;
+        width: 100%;
+    }
+
+    #animal_lover .icon_box span {
+        top: 40%;
+        left: 40%
+    }
+
+    #pugy_price_plan .Puggy_plan_title h2 {
+        font-size: 50px;
+    }
+
+    #pugy_price_plan .Puggy_plan_title p {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #doctors_section .doctoes_title_scrion h2 {
+        font-size: 60px;
+    }
+
+    #doctors_section .doctoes_title_scrion p {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #our_juernay {
+        min-height: 400px;
+    }
+
+    #recant_post .recant_post_text h1 {
+        font-size: 50px;
+    }
+
+    #recant_post .recant_post_text p {
+        font-size: 40px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    #doctors_care .doctors_tile h2 {
+        font-size: 50px;
+    }
+
+    #doctors_care .doctors_tile p {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #our_juernay {
+        min-height: 850px;
+    }
+}
+
+@media (max-width: 360px) {
+    #home_secton h1 {
+        font-size: 40px;
+    }
+
+    #home_secton p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    #home_secton h1 {
+        font-size: 35px;
+    }
+
+    #home_secton p {
+        font-size: 15px;
+    }
+
+    #home_secton .btn-lg {
+        font-size: 1rem;
+    }
+}

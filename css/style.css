@@ -1,0 +1,351 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*====================*/
+/*      NAVBAR        */
+/*====================*/
+
+.navbar {
+    background: #daac00;
+}
+
+.navbar .form-group {
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+.navbar .form-control {
+    border-radius: 0;
+    padding: 1.5rem 1rem;
+    border: none;
+
+}
+
+.navbar .input-group-text {
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 28px;
+    background: #00bec9;
+    border: none;
+}
+
+.navbar input[type=text] {
+    background: #fcc302;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar .form-control:focus {
+    box-shadow: none;
+}
+
+.navbar input::placeholder {
+    color: #fff;
+}
+
+
+.navbar .nav-link {
+    font-size: 26px;
+    color: #fff;
+    margin-left: 15px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: yellow;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    background: #fff;
+    border: #000;
+    display: inline-block;
+}
+
+
+/*====================*/
+/*     HOME SECTION   */
+/*====================*/
+
+#home_secton {
+    background: #fcc302;
+}
+
+#home_secton .text_box p {
+    font-size: 23px;
+}
+
+
+#home_secton .dog img {
+    width: 370px;
+}
+
+/*====================*/
+/*    ANIMALS LOVER   */
+/*====================*/
+
+#animal_lover p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+#animal_lover .images_box {
+    position: relative;
+}
+
+#animal_lover .Coler_box {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    background: orange;
+    top: 62%;
+    left: 5%;
+}
+
+
+#animal_lover .icon_box {
+    position: absolute;
+    top: 0;
+    left: 34px;
+    background: #daac0091;
+    width: 94%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+
+
+#animal_lover .icon_box span {
+    position: absolute;
+    font-size: 35px;
+    color: #daac00;
+    cursor: pointer;
+    background: #fff;
+    top: 44%;
+    left: 45%;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    text-align: center;
+}
+
+#animal_lover .images_box:hover .icon_box {
+    opacity: 1;
+}
+
+/*====================*/
+/*     DOCTRS CARE    */
+/*====================*/
+
+#doctors_care {
+    background: #fcc302;
+}
+
+#doctors_care .doctors_tile p {
+    font-size: 35px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#doctors_care .doctrose_contant p {
+    font-size: 20px;
+}
+
+/*====================*/
+/* PUGGY PRICING PLAN */
+/*====================*/
+
+#pugy_price_plan {
+    background: #fcc302;
+}
+
+#pugy_price_plan .Puggy_plan_title p {
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#pugy_price_plan button {
+    background: #00bec9;
+    color: #fff;
+    border-radius: 25px 25px 25px 25px;
+}
+
+
+/*====================*/
+/*  DOCTORS SECTION   */
+/*====================*/
+
+#doctors_section .doctoes_title_scrion p {
+    width: 80%;
+    margin: auto;
+    font-size: 35px;
+}
+
+#doctors_section h3 {
+    font-weight: 600;
+}
+
+#doctors_section .doctoes_title_contant p {
+    font-weight: 600;
+}
+
+#doctors_section .doctoes_title_contant span {
+    display: inline-block;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    background: #daac00;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#doctors_section .doctoes_title_contant span:hover {
+    color: #daac00;
+    background: rgb(0, 0, 0);
+}
+
+/*====================*/
+/*    OUR HUERNAY     */
+/*====================*/
+
+#our_juernay {
+    position: relative;
+    background: url(../img/dogwithman.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+#our_juernay .orange_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f1c01fea;
+}
+
+#our_juernay .our_juernay_contant p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/*====================*/
+/*    RECATN POST     */
+/*====================*/
+
+#recant_post .recant_post_text p {
+    font-size: 35px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#recant_post h3 {
+    font-weight: 600;
+}
+
+#recant_post .text-muted {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#recant_post p {
+    font-size: 18px;
+}
+
+#recant_post .border_none .card {
+    border: none;
+}
+
+#recant_post a {
+    font-size: 20px;
+    color: #00bec9;
+}
+
+#recant_post .card {
+    transition: .3s;
+}
+
+#recant_post .card:hover {
+    box-shadow: 0px 0px 13px -7px #000;
+}
+
+/*====================*/
+/*    FOOTER SECTION  */
+/*====================*/
+
+#footer .nav-item .nav-link {
+    padding-left: 0;
+    font-size: 18px;
+    transition: .3s;
+}
+
+#footer p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #00bec9;
+}
+
+#footer .form-control-lg {
+    padding: 2.5rem 1rem;
+}
+
+#footer .input-group-text {
+    padding: 0.375rem 3rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #00bec9;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+#footer input[type=text] {
+    background: #daac00;
+    border: none;
+    color: #fff;
+    border-radius: 0;
+}
+
+#footer .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+}
+
+#footer .footer_social_icons ul {
+    display: inline;
+}
+
+#footer .footer_social_icons ul li {
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 10px;
+    color: #000;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#footer .footer_social_icons ul li:hover {
+    color: orange;
+    background: #000;
+}
